@@ -1,0 +1,14 @@
+div{ /*by default*/
+    background-color: yellow;
+}
+/* form{ 
+    background-color: red;
+}*/
+/*manually we need to add for buttons & input*/
+input{
+    background-color: inherit;
+
+}
+button{
+    background-color: inherit;
+}

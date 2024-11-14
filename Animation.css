@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: fontanimation; 
+animation-duration: 2s;
+animation-timing-function: ease-in;
+animation-delay: 0;
+animation-iteration-count: 3;
+animation-direction: normal;
+}
+
+@keyframes fontanimation {
+    from{font-size: 20px;}
+    to{
+        font-size: 40px;
+    }
+    
+} */
+
+animation:colanimate 4s ease-in 0s 2 normal;
+}
+
+@keyframes colanimate {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    80%{
+        background-color: red;
+    }
+    100%{
+        background-color: black;
+    }
+    
+}

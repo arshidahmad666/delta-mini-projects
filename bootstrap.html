@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="bootstrap.css"/>
+</head>
+<body>
+
+    <!-- navigation -->
+    <nav class="navbar bg-body-tertiary fixed-top navbar-expand">
+        <div class="container-fluid">
+        <a href="#" class="navbar-brand">Brand Name</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">About us</a>
+        </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- container,buttons,badges,alert -->
+    <div class="container">
+        <h2>Bootstrap demo</h2>
+        <!-- card component -->
+
+         <div class="card" style="width:18rem">
+            <img src="photo.jpg" class="card-img-top"/>
+            <div class="card-body">
+                <h5 class="card-tittle">photography</h5>
+                <p class="card-text">
+                    It is an art to capture important things.
+                </p>
+                <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+         </div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, ratione. Esse nesciunt sint aut, quisquam assumenda vero facilis quis doloribus voluptates quam omnis! Laudantium nihil dolorum quis minus assumenda quod.
+        </p>
+
+        <button class="btn btn-danger btn-lg">btn one</button>
+        <button class="btn btn-outline-success">btn two</button>
+        <button class="btn btn-outline-warning">btn three</button>
+        <button class="btn btn-info btn-sm">btn four</button>
+        <button class="btn btn-danger"disabled>disabled</button>
+        <a href="#"class="btn btn-outline-dark">google me!</a>
+    <br/>
+    <h3>Notifications <span class="badge bg-primary rounded-pill">20+</span></h3>
+    <br/>
+    <button class="btn btn-primary">
+        Followers
+        <span class="badge bg-danger rounded-pill">100+</span>
+    </button>
+    <br/>
+    <div class="alert alert-danger">Download Failed! pls try again</div>
+    <div class="alert alert-success">congrox!your score is 10/10</div>
+    </div>
+</body>
+</html>
